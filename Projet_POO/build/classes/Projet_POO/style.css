@@ -1,0 +1,130 @@
+/* Style général de la scène */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+    
+}
+
+/* Barre de menu */
+.toolbar {
+    -fx-background-color: #3498db;
+    -fx-min-height: 40px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+}
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+    -fx-padding: 12px 30px;
+    -fx-cursor: hand;
+    -fx-min-width: 200px;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-border-color:#3498db;
+    -fx-text-fill: #3498db;
+}
+
+
+.toolbar .button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-min-height: 40px;
+    -fx-padding:  15px;
+}
+
+.toolbar .button:hover{
+    -fx-background-color:white;
+    -fx-text-fill: #3498db;
+}
+
+
+.scrol{
+    -fx-min-width: 1000px;
+    -fx-max-width: 1000px;
+    -fx-background-color: white;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill:#3498db;
+    -fx-font-size: 28px;
+    -fx-min-width: 100px;
+    -fx-font-weight: bold;
+}
+
+
+
+/* TextField et TextArea */
+.text-area {
+   
+    -fx-border-width:  0 ; /* top, right, bottom, left */
+    
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 14px;
+   -fx-min-width: 700px;
+    -fx-max-width: 700px;
+    -fx-min-height: 250px;
+    -fx-max-height: 250px;
+    -fx-background-color: white;
+    -fx-text-fill: #333;
+    -fx-border-radius: 5;
+
+   
+}
+.vbox-left-margin {
+    -fx-padding: 0 0 0 20px; /* Marge gauche de 20px */
+}
+.text-area .content {
+    -fx-background-color:white;
+     
+}
+
+.text-area .content:hover {
+    -fx-background-color:white;
+   
+    
+}
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: white;
+     -fx-border-width:  0;
+     -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    
+ 
+}
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+     -fx-background-color: white;
+     -fx-pref-width: 0;
+    -fx-pref-height: 0;
+     
+}
+
+/* Cacher la "track" (la piste de scroll) */
+.scroll-bar .track {
+    -fx-background-color: white;
+}
+.scroll-bar .thumb {
+    -fx-background-color: royalblue; /* couleur du rectangle */
+    -fx-background-radius: 6;
+}
+
+
+/* Effet au survol */
+.text-area:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.3, 2, 2);
+    -fx-border-color: white white white royalblue; /* top, right, bottom, left */
+    -fx-border-width:  0 0 0 5px ; /* top, right, bottom, left */
+     -fx-border-radius: 5;
+}
+
+
+.spac{
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+}

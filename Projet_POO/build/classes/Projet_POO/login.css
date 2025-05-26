@@ -1,0 +1,86 @@
+
+/* login-style.css */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+     -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 15, 0, 0, 0);
+    -fx-min-width: 500px;
+    -fx-max-width: 500px;
+    -fx-min-height: 500px;
+    -fx-max-height: 500px;
+}
+.label {
+    -fx-text-fill:#3498db;
+    -fx-font-size: 14px;
+    -fx-min-width: 100px;
+    -fx-font-weight: bold;
+}
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 25px 0;
+     -fx-font-weight: bold;
+}
+.signUp{
+    -fx-underline: true;
+    -fx-text-fill:#3498db;
+    -fx-font-size: 14px;
+}
+
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    
+    -fx-border-radius: 5;
+    -fx-border-color: #dfe6e9;
+    -fx-border-width: 1;
+    -fx-padding: 10px;
+    -fx-prompt-text-fill: #b2bec3;
+    -fx-min-width: 280px;
+    -fx-max-width: 280px;
+    -fx-font-family: "Courier New", monospace;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #00ffff;
+}
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+    -fx-padding: 12px 30px;
+    -fx-cursor: hand;
+    -fx-min-width: 200px;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-border-color:#3498db;
+    -fx-text-fill: #3498db;
+}
+
+.role{
+    -fx-min-width: 350px;
+    -fx-min-height:50px
+}
+.hbox {
+    -fx-spacing: 15px;
+    -fx-padding: 8px 0;
+    -fx-alignment: center-left;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}

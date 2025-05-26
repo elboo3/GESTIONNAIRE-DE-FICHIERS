@@ -1,0 +1,74 @@
+
+/* login-style.css */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+     -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.toolbar {
+    -fx-background-color: #3498db;
+    -fx-min-height: 40px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 5);
+}
+
+
+
+.toolbar .button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-min-height: 40px;
+    -fx-padding:  15px;
+}
+
+.toolbar .button:hover{
+    -fx-background-color:white;
+    -fx-text-fill: #3498db;
+}
+
+.label {
+    -fx-text-fill:#3498db;
+    -fx-font-size: 16px;
+    -fx-min-width: 100px;
+    -fx-font-weight: bold;
+}
+
+.text-area {
+   
+    -fx-border-width:  0 ; /* top, right, bottom, left */
+    
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 14px;
+   -fx-min-width: 240px;
+    -fx-max-width: 240px;
+    -fx-min-height: 200px;
+    -fx-max-height:200px;
+    -fx-background-color: white;
+    -fx-text-fill: #333;
+    -fx-border-radius: 5;
+
+   
+}
+
+
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+    -fx-padding: 12px 30px;
+    -fx-cursor: hand;
+    -fx-min-width: 100px;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-border-color:#3498db;
+    -fx-text-fill: #3498db;
+}
+
+
+

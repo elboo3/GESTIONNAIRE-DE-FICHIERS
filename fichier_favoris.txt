@@ -1,0 +1,8 @@
+ID_fichier : 6
+ Auteur : null
+ Titre : Projet_POO
+ Schema : C:\Users\User\Desktop\TP Noté POO AV 2025.pdf
+ resume : null
+ commentaire : null 
+Tags :  exceptions ; java ; 
+
